@@ -1,0 +1,9 @@
+Make a vector object that gets x, y coordinates.
+
+The vector will have getters and setters and toString.
+
+Have 2 inner functions,
+
+one that gets the vector's length,
+
+one that gets the vector's angle. (Math.atan2(y,x)).

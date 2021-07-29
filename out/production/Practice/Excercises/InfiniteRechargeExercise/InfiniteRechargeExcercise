@@ -1,0 +1,33 @@
+In the Infinite Recharge Exercise you will have to make 3 objects:
+1. Robot, which will get:
+    boolean hasClimbed,
+    int bottomPowerCells,
+    int outerPowerCells,
+    int innerPowerCells,
+    int autoBottomPowerCells,
+    int autoOuterPowerCells,
+    int autoInnerPowerCells.
+
+    climbing is worth 30 points,
+    bottom power cells are worth 1 point,
+    outer power cells are worth 2 points,
+    inner power cells are worth 3 points,
+    auto bottom power cells are worth 2 point,
+    auto outer power cells are worth 4 points,
+    auto inner power cells are worth 6 points.
+
+    Robot will have 1 inner function which will return total amount of points.
+
+2. Alliance, which will get:
+    boolean isBlue,
+    Robot robot,
+    Robot robot2,
+    Robot robot3.
+
+    Alliance will have 1 inner function which will return total amount of points.
+
+3. Game, which will get:
+    Alliance blueAlliance,
+    Alliance redAlliance.
+
+    Game will have 1 inner function which will print which alliance won.

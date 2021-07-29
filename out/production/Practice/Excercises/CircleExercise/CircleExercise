@@ -1,0 +1,5 @@
+Make a Circle object that gets a circle's radius.
+
+The circle will have getters and setters and toString.
+
+Have 3 inner functions, one that gets the circle's perimeter, one that gets the circle's area and one that gets a circle's diameter.

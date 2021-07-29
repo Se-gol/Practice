@@ -1,0 +1,5 @@
+Make a Color object that gets 3 values: red, green and blue.
+
+The Color will have getters and setters and toString.
+
+Have 1 inner function that converts RGB to HEX. (you will find the mathematical formula on the internet and apply it in your code).

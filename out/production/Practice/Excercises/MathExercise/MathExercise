@@ -1,0 +1,27 @@
+Make a Math class.
+
+The Math class will not need to get any input or have a constructor.
+
+The Math class will contain the constant: PI.
+
+The Math class will have 10 functions,
+
+get an array of numbers and return the sum of all the numbers.
+
+get an array of numbers and return the average of all the numbers.
+
+get an array of numbers and return the product of all the numbers.
+
+get an array of numbers and return the max number in the array.
+
+get an array of numbers and return the min number in the array.
+
+make a pow function.
+
+make a factorial function.
+
+make a function prints a specified amount of numbers from the fibonacci sequence in order.
+
+make a function that converts radians to degrees.
+
+make a function that converts degrees to radians.
