@@ -1,0 +1,17 @@
+Make an NBAplayer object with the properties of fullName, 2 point percentage, 2 point attempts, 3 point percentage and 3 point attempts.
+
+The object will have a constructor, getters and toString.
+
+The object will have an inner function that will return the total points that player has scored in a game.
+
+Make an NBAteam object that will have the properties of team name, city name, and 5 NBA players.
+
+The object will have a constructor, getters and toString.
+
+The object will have an inner function that will return the total points that team has scored in a game.
+
+Make an NBAgame object that will have the properties of  2 NBA teams.
+
+The object will have a constructor, getters and toString.
+
+The object will have an inner function that will print which team won and the score of the game.
