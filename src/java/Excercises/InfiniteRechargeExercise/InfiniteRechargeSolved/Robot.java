@@ -40,7 +40,7 @@ public class Robot {
     }
 
     public void setOuterPowerCells(int outerPowerCells) {
-        this.outerPowerCells = outerPowerCells;
+        this.outerPowerCells = outerPowerCells*2;
     }
 
     public int getInnerPowerCells() {
@@ -48,7 +48,7 @@ public class Robot {
     }
 
     public void setInnerPowerCells(int innerPowerCells) {
-        this.innerPowerCells = innerPowerCells;
+        this.innerPowerCells = innerPowerCells*3;
     }
 
     public int getAutoBottomPowerCells() {
@@ -56,7 +56,7 @@ public class Robot {
     }
 
     public void setAutoBottomPowerCells(int autoBottomPowerCells) {
-        this.autoBottomPowerCells = autoBottomPowerCells;
+        this.autoBottomPowerCells = autoBottomPowerCells*2;
     }
 
     public int getAutoOuterPowerCells() {
@@ -64,7 +64,7 @@ public class Robot {
     }
 
     public void setAutoOuterPowerCells(int autoOuterPowerCells) {
-        this.autoOuterPowerCells = autoOuterPowerCells;
+        this.autoOuterPowerCells = autoOuterPowerCells*4;
     }
 
     public int getAutoInnerPowerCells() {
@@ -72,7 +72,7 @@ public class Robot {
     }
 
     public void setAutoInnerPowerCells(int autoInnerPowerCells) {
-        this.autoInnerPowerCells = autoInnerPowerCells;
+        this.autoInnerPowerCells = autoInnerPowerCells*6;
     }
 
     public int getTotalPoints() {

@@ -45,6 +45,8 @@ public class Alliance {
         this.robot3 = robot3;
     }
 
+
+
     public int getTotalPoints() {
         int sum = this.robot.getTotalPoints() + this.robot2.getTotalPoints() + this.robot3.getTotalPoints();
         boolean haveAllRobotsClimbed = this.robot.isHasClimbed() && this.robot2.isHasClimbed() && this.robot3.isHasClimbed();
