@@ -1,14 +1,18 @@
 package Excercises.MathExercise;
 
 public class Math {
-    final double Pi = 3.141592653589793238;
+    public static final double Pi = 3.141592653589793238;
 
 
-    public static int Sum(int[] nums) {
+    public static int Sum(int[] nums) { // sum()
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
         }
+        /*
+        for (int num : nums)
+            sum += num;
+         */
         return sum;
     }
 
@@ -70,14 +74,12 @@ public class Math {
     }
 
     public static double Factorial(int numOfTimes) {
-        int blah = 1;
-        int factprialFunction = 1;
+        int factorialFunction = 1;
         int[] nums = new int[numOfTimes];
         for (int i = 1; i < nums.length; i++) {
-            blah = i + 1;
-            factprialFunction *= blah;
+            factorialFunction *= i;
         }
-        return factprialFunction;
+        return factorialFunction;
     }
 
     public static int Fibonacci(int numOfTimes) {
@@ -92,5 +94,22 @@ public class Math {
         return PastNum;
     }
 
-    public static int
+    public static int fibo(int n) {
+        if (n == 1 || n == 2)
+            return 1;
+        // 8
+        return fibo(n - 1) + fibo(n - 2);
+    }
+
+
+    public static double degreeConverter(double numOfRadians) {
+        double degree = (numOfRadians * 180) / Pi;
+        return degree;
+    }
+
+
+    public static double radianConverter(int numOfDegrees) {
+        double radian = numOfDegrees * (Pi / 180);
+        return radian;
+    }
 }
